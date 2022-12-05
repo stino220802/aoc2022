@@ -90,6 +90,12 @@ build CMakeFiles/aoc2022.dir/day4.cpp.obj: CXX_COMPILER__aoc2022_Debug C$:/Users
   OBJECT_DIR = CMakeFiles\aoc2022.dir
   OBJECT_FILE_DIR = CMakeFiles\aoc2022.dir
 
+build CMakeFiles/aoc2022.dir/day5.cpp.obj: CXX_COMPILER__aoc2022_Debug C$:/Users/12001732/Documents/cprogrameren1/aoc2022/day5.cpp || cmake_object_order_depends_target_aoc2022
+  DEP_FILE = CMakeFiles\aoc2022.dir\day5.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  OBJECT_DIR = CMakeFiles\aoc2022.dir
+  OBJECT_FILE_DIR = CMakeFiles\aoc2022.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target aoc2022
@@ -98,7 +104,7 @@ build CMakeFiles/aoc2022.dir/day4.cpp.obj: CXX_COMPILER__aoc2022_Debug C$:/Users
 #############################################
 # Link the executable aoc2022.exe
 
-build aoc2022.exe: CXX_EXECUTABLE_LINKER__aoc2022_Debug CMakeFiles/aoc2022.dir/main.cpp.obj CMakeFiles/aoc2022.dir/day1.cpp.obj CMakeFiles/aoc2022.dir/day2.cpp.obj CMakeFiles/aoc2022.dir/day3.cpp.obj CMakeFiles/aoc2022.dir/day4.cpp.obj
+build aoc2022.exe: CXX_EXECUTABLE_LINKER__aoc2022_Debug CMakeFiles/aoc2022.dir/main.cpp.obj CMakeFiles/aoc2022.dir/day1.cpp.obj CMakeFiles/aoc2022.dir/day2.cpp.obj CMakeFiles/aoc2022.dir/day3.cpp.obj CMakeFiles/aoc2022.dir/day4.cpp.obj CMakeFiles/aoc2022.dir/day5.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aoc2022.dir
